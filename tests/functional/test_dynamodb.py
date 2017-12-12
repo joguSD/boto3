@@ -13,7 +13,7 @@
 import json
 from tests import unittest, mock
 
-from botocore.vendored import requests
+import requests
 
 from boto3.session import Session
 from boto3.dynamodb.conditions import Attr
